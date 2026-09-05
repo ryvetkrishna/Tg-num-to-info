@@ -13,8 +13,10 @@ services:
         sync: false
       - key: ADMIN_IDS
         sync: false
-      - key: DATABASE_FILE
-        value: users.db
+      - key: FREE_USES
+        value: 2
+      - key: PRICE_PER_SEARCH
+        value: 5
       - key: PORT
         value: 10000
     plan: free
